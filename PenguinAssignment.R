@@ -17,7 +17,7 @@ penguin.mod <- lm(culmen_length_mm ~ species, penguins_now_clean)
 anova(penguin.mod)
 
 #Results of statistical test: P value is a lot less than 0.05, so result is very strongly significant. 
-#There is a strong correlation between species and the mean flipper length of a penguin.
+#There is a strong correlation between species and the mean culmen length of a penguin.
 
 #Check assumptions of test are met:
 
